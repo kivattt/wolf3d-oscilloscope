@@ -17,3 +17,31 @@ One "frame" consists of a high amplitude (negative) trigger signal, followed by 
 ## Bugs
 - Ceiling lamps are incorrectly thought to be the start of a wall, making them appear as large objects
 - Same problem with enemies, and also the gun in the middle of the screen (though this is mitigated by choosing the smallest of the top and bottom "scans")
+
+## Building
+[Click here](https://github.com/SFML/cmake-sfml-project) for more details
+```
+# Install dependencies needed for SFML 3
+sudo apt update
+sudo apt install \
+    libxrandr-dev \
+    libxcursor-dev \
+    libxi-dev \
+    libudev-dev \
+    libfreetype-dev \
+    libflac-dev \
+    libvorbis-dev \
+    libgl1-mesa-dev \
+    libegl1-mesa-dev \
+    libfreetype-dev
+
+# Compile the code
+cmake -B build
+cmake --build build
+
+# Run
+./build/bin/main
+
+# Now open Wolfenstein 3D in dosbox on Linux Mint Cinnamon
+# And hook up your oscilloscope to the audio output!
+```
