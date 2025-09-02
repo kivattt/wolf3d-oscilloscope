@@ -2,7 +2,7 @@ Don't bother trying to run this yourself! Beware of hardcoded values...
 
 https://github.com/user-attachments/assets/bd838dee-f011-4207-867a-1fc238e67f30
 
-Only works on X11, it screenshots constantly and outputs an amplitude-modulated sine wave with an initial trigger as sound suitable for an oscilloscope.
+Only works on Linux with X11, it screenshots constantly and outputs an amplitude-modulated sine wave with an initial trigger as sound suitable for an oscilloscope.
 
 I run Wolfenstein 3D with dosbox on Linux Mint Cinnamon, where the window opens in the middle of my 1920x1080 screen at 480x240 resolution for the game area.
 
