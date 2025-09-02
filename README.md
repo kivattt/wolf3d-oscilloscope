@@ -12,7 +12,7 @@ Since the floors and ceilings of Wolfenstein 3D are a flat color, I simply count
 
 I then choose the smallest of these two values to use for the final output.
 
-One "frame" consists of a high amplitude (negative) trigger signal, followed by a high-frequency sine wave which is amplitude-modulated based on the vertical slices mentioned before.
+One "frame" consists of a high amplitude (negative) trigger signal, followed by a high-frequency sine wave which is amplitude-modulated based on the vertical slices mentioned above.
 
 ## Bugs
 - Ceiling lamps are incorrectly thought to be the start of a wall, making them appear as large objects
