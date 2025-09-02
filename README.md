@@ -6,7 +6,7 @@ Only works on Linux with X11, it screenshots constantly and outputs an amplitude
 
 I run Wolfenstein 3D with dosbox on Linux Mint 22.1 Cinnamon, where the window opens in the middle of my 1920x1080 screen at 480x240 resolution for the game area.\
 This outputs audio at 192khz with a buffer size of 8192 samples.\
-In the video, I'm using the (MOTU M4 audio interface)[https://motu.com/en-us/products/m-series/m4/] as the digital-to-analog converter (the headphone output at max volume, only using 1 channel).
+In the video, I'm using the [MOTU M4 audio interface](https://motu.com/en-us/products/m-series/m4/) as the digital-to-analog converter (the headphone output at max volume, only using 1 channel).
 
 ## How does it work?
 I split the screen into vertical slices and find the height of the wall at every vertical slice.\
